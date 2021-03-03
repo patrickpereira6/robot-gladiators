@@ -7,6 +7,9 @@ var enemyNames = ['Roborto', 'Amy Android', 'Robo Trumble'];
 var enemyHealth = 50;
 var enemyAttack = 12;
 
+//get enemny from array
+var enemyName = enemyNames[0]
+
 console.log(enemyNames);
 console.log(enemyNames.length);
 console.log(enemyNames[0]);
@@ -54,7 +57,7 @@ var fight = function (enemyName) {
           window.alert(playerName + " still has " + playerHealth + " health left.");
         }
       } 
-      
+
    // if player choses to skip
   else if (promptFight === "skip" || promptFight === "SKIP") {
     // confirm player wants to skip
